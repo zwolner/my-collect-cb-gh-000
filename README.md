@@ -1,13 +1,34 @@
----
-tags: ruby, enumerable, metaprogramming, blocks, iteration
-languages: ruby
-resources: 0
----
 # my_collect
 
-Now that we've built our own each method, let's build our own collect method! Remember that `.collect` returns a new array object containing elements modified by the block.
+## Objectives
 
-Write your code in "my_collect.rb". Get the tests to pass.
+1. Gain more practice with the `yield` keyword and blocks
+2. Gain a deeper understanding of how a common interator, `.collect
+
+
+## Instructions: 
+
+Fork and clone this repository. Run the test suite to get a better understanding of what is being asked of you. You'll write your code in "my_collect.rb". 
+
+You are writing a method that behaves just like the real `.collect` method. It should take in an argument of a collection, iterate over that collection, and execute the code in the block you call it with for each element in the collection. It should return the modified collection. 
+
+For example: 
+
+```ruby
+array = [1, 2, 3, 4]
+my_collect(array) do |i|
+	i * 2
+end
+```
+
+Should return: 
+
+```ruby
+[2, 4, 6, 8]
+```
+
+**Don't use Ruby's `.each` method** to solve this lab. Rely on the `yield` keyword to yield each element in the collection to the block that `my_collect` is called with. 
+
 
 ## Resources
 * [All About Ruby](http://allaboutruby.wordpress.com/) - [Ruby Blocks](http://allaboutruby.wordpress.com/2006/01/20/ruby-blocks-101/)
