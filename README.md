@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Gain more practice with the `yield` keyword and blocks
-2. Gain a deeper understanding of how a common interator, `.collect
+2. Gain a deeper understanding of a common interator, `.collect
 
 
 ## Instructions: 
