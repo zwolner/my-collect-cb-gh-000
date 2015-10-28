@@ -1,3 +1,4 @@
+
 def my_collect(array)
   i = 0
   collect = []
@@ -7,3 +8,5 @@ def my_collect(array)
   end
   collect
 end
+
+
