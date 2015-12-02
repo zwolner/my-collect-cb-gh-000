@@ -34,3 +34,4 @@ Should return:
 ```ruby
 ["Tim", "Tom", "Jim"]
 ```
+<a href='https://learn.co/lessons/my-collect' data-visibility='hidden'>View this lesson on Learn.co</a>
