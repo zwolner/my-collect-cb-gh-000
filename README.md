@@ -34,3 +34,4 @@ Should return:
 ```ruby
 ["Tim", "Tom", "Jim"]
 ```
+Make sure to run bundle install before running your tests.
