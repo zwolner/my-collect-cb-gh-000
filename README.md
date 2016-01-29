@@ -35,3 +35,4 @@ Should return:
 ["Tim", "Tom", "Jim"]
 ```
 Make sure to run bundle install before running your tests.
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-collect' title='My #collect'>My #collect</a> on Learn.co and start learning to code for free.</p>
