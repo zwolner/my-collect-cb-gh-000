@@ -11,7 +11,7 @@ You'll be writing your code in `lib/my_collect.rb`.
 
 You are writing a method that behaves just like the real `#collect` method. It should take in an argument of a collection, iterate over that collection using a `while` loop, and execute the code in the block you call it with for each element in the collection (use the `yield` keyword). It should return the modified collection. 
 
-Your `#my_collect` method, therefore, should not care the contents of the code block that it is invoked with. For example, let's say we are writing an app to help teachers manage their students. Our teacher has a list of students:
+Your `#my_collect` method, therefore, should not care about the contents of the code block that it is invoked with. For example, let's say we are writing an app to help teachers manage their students. Our teacher has a list of students:
 
 ```ruby
 ["Tim Jones", "Tom Smith", "Jim Campagno"]
@@ -34,12 +34,12 @@ Should return:
 ["Tim", "Tom", "Jim"]
 ```
 
-What if your method was being invoked with a totally different collection and a totally different code block? For example, let's say your `#my_collect` method is given an argument of a list of programming languages, and passed a block that capitalizes the elements yielded to it. 
+What if your method was being invoked with a totally different collection and a totally different code block? For example, let's say your `#my_collect` method is given an argument of a list of programming languages and passed a block that capitalizes the elements `yield`ed to it. 
 
 ```ruby
 collection = ['ruby', 'javascript', 'python', 'objective-c']
 my_collect(collection) do |lang|
-  lang.uppercase
+  lang.upcase
 end
 
 # => ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
@@ -49,6 +49,5 @@ Your method should behave the same way––iterating over the given collection 
 
 
 Make sure to run bundle install before running your tests.
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-collect' title='My #collect'>My #collect</a> on Learn.co and start learning to code for free.</p>
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/my-collect'>Collect Lab</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-collect' title='My #collect'>My `#collect`</a> on Learn.co and start learning to code for free.</p>
